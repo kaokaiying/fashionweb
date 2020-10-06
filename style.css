@@ -1,0 +1,598 @@
+body {
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.test {
+    background-color: #000;
+    height: 100px;
+    ;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 80px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+}
+
+.menu {
+    float: right;
+    width: 713px;
+    height: 64px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.menu:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100px;
+    background-color: #000;
+}
+
+.menu ul li a {
+    color: #000;
+}
+
+.logo-img {
+    height: 47px;
+    padding-top: 17px;
+}
+
+.menu ul {
+    list-style: none;
+    float: right;
+    padding: 0px;
+    margin: 27px 0 25px 0;
+}
+
+.menu ul li {
+    float: left;
+    padding-left: 25px;
+}
+
+.menu ul li:last-child {
+    padding-left: 80px;
+}
+
+.menu ul li a {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #111111;
+    padding: 10px 20px;
+}
+
+.banner {
+    height: 470px;
+    position: relative;
+}
+
+.banner {
+    padding-top: 80px;
+}
+
+.image {
+    height: 500px;
+    width: 20%;
+    float: left;
+    background-size: cover;
+}
+
+.banner-small {
+    width: 257px;
+    object-fit: contain;
+}
+
+.banner-large {
+    width: 398px;
+    object-fit: contain;
+}
+
+.rectangle-top {
+    width: 970px;
+    border: solid 1px #979797;
+    background-color: #FFFFFF;
+    /* margin-top: 408px; */
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    transform: translate(-50%);
+
+
+}
+
+.text {
+    width: 651px;
+    height: 60px;
+    font-family: Helvetica;
+    font-size: 35px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.main {
+    padding: 0px;
+    margin-top: 200px;
+}
+
+h3 {
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #111111;
+    margin: 0;
+}
+
+.banner-large {
+    width: 398px;
+    object-fit: contain;
+}
+
+
+/* =============================================== */
+
+
+/* FASHION-Style Advice */
+
+
+/* =============================================== */
+
+
+/* 以下是時尚-表頭區 */
+
+.fashion-section-wrapper {
+    position: relative;
+    padding: 80px 0;
+    border-top: 2px solid #000;
+}
+
+.fashion-section-wrapper h3 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.fashion-section-wrapper .title {
+    float: left;
+    width: 30%;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #111111;
+}
+
+.fashion-section-wrapper .contain {
+    float: left;
+    width: 70%;
+}
+
+.fashion-section-body {
+    margin-top: 105px;
+    margin-bottom: 100px;
+}
+
+
+/* =============================================== */
+
+
+/* LATEST NEWS */
+
+
+/* =============================================== */
+
+
+/* 以下是最新文章-照片內容區 */
+
+.wrapper .wrapper-body {
+    margin-top: 99px;
+    margin-bottom: 100px;
+}
+
+.wrapper .side .image-side {
+    float: left;
+    width: 370px;
+    height: 560px;
+    object-fit: contain;
+}
+
+.wrapper .contain {
+    float: left;
+    width: 800px;
+}
+
+.title .links li {
+    display: inline;
+    float: right;
+}
+
+.contain p {
+    text-align: left;
+    width: 770px;
+    height: 371px;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    color: #707070;
+    padding-left: 30px;
+}
+
+h4 {
+    height: 29px;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #707070;
+    padding-left: 30px;
+}
+
+h5 {
+    height: 17px;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #707070;
+    padding-left: 30px;
+    margin-top: 0px;
+}
+
+.contain a {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 16px;
+    border: solid 1px #707070;
+    background-color: #FFFFFF;
+    border-radius: 21px;
+    float: right;
+    padding: 11px 21px 11px 21px;
+    margin: 0px;
+}
+
+
+/* =============================================== */
+
+
+/* Lifestyle */
+
+
+/* =============================================== */
+
+
+/* 以下是生活文章-照片內容區 */
+
+.lifestyle-section-wrapper .body {
+    margin-top: 99px;
+    margin-bottom: 100px;
+}
+
+.lifestyle-section-wrapper .side .image-side {
+    float: left;
+    width: 370px;
+    height: 300px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+.lifestyle-section-wrapper .contain {
+    float: left;
+    width: 800px;
+}
+
+.lifestyle-section-wrapper .title {
+    float: right;
+    width: 30%;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #111111;
+}
+
+.lifestyle-section-wrapper {
+    position: relative;
+    padding: 80px 0;
+    border-top: 2px solid #000;
+}
+
+.lifestyle-section-wrapper h3 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+/* =============================================== */
+
+
+/* Beauty */
+
+
+/* =============================================== */
+
+
+/* 以下是卡片式Beauty內容區 */
+
+.beauty-section-wrapper {
+    position: relative;
+    padding: 80px 0px;
+    border-top: 2px solid #000;
+}
+
+.beauty-section-wrapper h3 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.card {
+    width: 370px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+.card-img {
+    background-size: cover;
+}
+
+.card-body {
+    padding: 30px 30px;
+    display: inline-block;
+    position: relative;
+    height: 200px;
+}
+
+.card h4 {
+    margin-bottom: 30px;
+    height: 74px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    color: #111111;
+    display: inline-block;
+    padding: 0;
+}
+
+.card h5 {
+    width: 95px;
+    height: 24px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: italic;
+    line-height: normal;
+    color: #111111;
+    display: inline-block;
+    padding: 0;
+}
+
+.card h6 {
+    width: 15px;
+    height: 14px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    color: #111111;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card:hover {
+    width: 370px;
+    border: 1px solid #000000;
+    display: block;
+}
+
+.card a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+}
+
+.card a ul {
+    text-align: right;
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.card a:hover ul {
+    opacity: 1;
+}
+
+.card ul li {
+    margin: 10px;
+    border-bottom: 1px solid #999;
+}
+
+.card ul li:first-child {
+    padding-right: 20px;
+}
+
+.card a:hover {
+    border-bottom: solid;
+}
+
+.view-more {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.view-more a {
+    width: 218px;
+    font-size: 25px;
+    border-radius: 32px;
+    border: solid 1px #000000;
+    background-color: white;
+    text-align: center;
+    padding: 15px 52px;
+    margin: auto;
+}
+
+
+/* =============================================== */
+
+
+/* Footer */
+
+
+/* =============================================== */
+
+
+/* 以下是Footer區 */
+
+.footer {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.follow {
+    width: 33.3333%;
+    display: inline-block;
+    float: left;
+}
+
+.follow p {
+    padding-bottom: 50px;
+}
+
+.follow ul {
+    list-style: none;
+    float: left;
+}
+
+.follow ul li {
+    float: left;
+    padding-bottom: 100px;
+    padding-right: 15px;
+}
+
+.news {
+    width: 33.3333%;
+    display: inline-block;
+    float: left;
+}
+
+.news p {
+    padding-bottom: 50px;
+}
+
+.sign-up a{
+    width: 33.3333%;
+    display: inline-block;
+    float: left;
+    height: 17px;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    border: 1px solid #000;
+}
+
+.get {
+    width: 33.3333%;
+    display: inline-block;
+    float: left;
+}
+
+.get p {
+    padding-bottom: 50px;
+}
+
+.get h5 {
+    padding-bottom: 16px;
+    padding-left: 0;
+}
